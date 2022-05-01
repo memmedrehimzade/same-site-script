@@ -1,2 +1,3 @@
 # same-site-script
-same site script scaner
+same site script scanner
+#bugbounty #samesitescript
