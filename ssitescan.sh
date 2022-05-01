@@ -20,10 +20,10 @@ if [ "$host" == "" ] || [ "$list" == "" ]
 then
 echo -e "\033[33mUsage: ./ssitescan.sh target.tld subs.txt\033[0m"
 
-else
+else output= host localhost.$host
 while IFS='' read -r custom_wordlist ; do
 
-        output= host localhost.$host
+        
         output= host $custom_wordlist
 	output= host localhost.$custom_wordlist 
 	output= host admin.$custom_wordlist
